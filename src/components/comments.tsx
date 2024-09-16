@@ -5,7 +5,7 @@ import "./comments.css";
 const loggedInUser: string | null = "Juan Pérez"; // Cambiar a `null` si no está logueado
 
 // Simulando que el usuario es admin
-const isAdmin = false; // Cambia esto a false para simular que el usuario no es admin
+const isAdmin = true; // Cambia esto a false para simular que el usuario no es admin
 
 type Comment = {
   name: string;

@@ -22,14 +22,15 @@ function Navbar() {
         <Link to="/turnos">Turnos</Link>
 
         {/* Rendnerizado condicional */}
-        {isLoggedIn ? (
-          <Link to="/perfil" className="SecondButton">
-            Perfil
-          </Link>
-        ) : (
-          <Link to="/login" className="MainButton">
-            Ingresar
-          </Link>
+        {isLoggedIn && (
+          <>
+            <Link to="/perfil" className="SecondButton">
+              Perfil
+            </Link>
+            <Link to="/login" className="MainButton">
+              Ingresar
+            </Link>
+          </>
         )}
       </div>
     </header>
