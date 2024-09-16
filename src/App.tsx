@@ -25,11 +25,11 @@ function App() {
             <Route path="/galeria" element={<Gallery />} />
             <Route path="/servicios" element={<Services />} />
 
-            <Route element={<ProtectedRoute />}>
-              <Route path="/turnos" element={<Turn />} />
-              <Route path="/perfil" element={<Perfil />} />
-              <Route path="/admin" element={<Admin />} />
-            </Route>
+            <Route path="/turnos" element={<Turn />} />
+            <Route path="/perfil" element={<Perfil />} />
+            <Route path="/admin" element={<Admin />} />
+
+            <Route element={<ProtectedRoute />}></Route>
           </Routes>
           <Footer />
         </PopUpProvider>
