@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 function Navbar() {
   // Simulando el estado de inicio de sesión
-  const isLoggedIn = false; // Cambia esto a true para simular que el usuario está logueado
+  const isLoggedIn = true; // Cambia esto a true para simular que el usuario está logueado
 
   return (
     <header>
