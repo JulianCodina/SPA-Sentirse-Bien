@@ -51,6 +51,8 @@
   box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.1);
   padding: 15px;
   justify-content: space-between;
+  width: auto;
+  min-width: 110px;
 }
 .misTurnos-container .turno h4 {
   margin: 5px 0;
@@ -60,12 +62,6 @@
   overflow-wrap: break-word;
 }
 .newTurnButton .MainButton {
-  display: flex;
-  margin: auto;
-}
-.misTurnos-container .SecondButton {
-  font-size: 12px;
-  padding: 5px 5px;
   display: flex;
   margin: auto;
 }
@@ -85,12 +81,6 @@
     padding: 5px 5px 15px;
     width: 100%;
   }
-  .misTurnos-container .SecondButton {
-    font-size: 11px;
-    padding: 5px 5px;
-    display: flex;
-    margin: auto;
-  }
 }
 @media screen and (max-width: 500px) {
   .turn-container {
@@ -106,13 +96,6 @@
   }
   .misTurnos-container .turno h4 {
     font-size: 13px;
-  }
-  .misTurnos-container .SecondButton {
-    font-size: 9.5px;
-    padding: 5px 5px;
-    display: flex;
-    margin: auto;
-    width: 44px;
   }
 }
 @media screen and (max-width: 385px) {

@@ -78,29 +78,39 @@ type Turno = {
 };
 const turnos: Turno[] = [
   {
-    usuario: "JulianCodina",
+    usuario: "JuanPerez",
     servicio: "Antiestres",
     tipo: "Masaje",
     hora: "13:00",
   },
   {
-    usuario: "AstridPuta",
+    usuario: "TomasMassa",
     servicio: "Descontracturante",
     tipo: "Masaje",
     hora: "13:00",
   },
-  { usuario: "ExcelCapo", servicio: "de pies", tipo: "Masaje", hora: "13:00" },
-  { usuario: "PaulaLandra", servicio: "cara", tipo: "Belleza", hora: "13:00" },
   {
-    usuario: "LaProfeEsLaOnda",
-    servicio: "Limpieza Profunda",
-    tipo: "Tratamiento Facial",
+    usuario: "LuisAlCuadrado",
+    servicio: "Circulatorios",
+    tipo: "Masaje",
     hora: "13:00",
   },
   {
-    usuario: "GonzaAhre",
-    servicio: "masade de piedras",
-    tipo: "Masaje",
+    usuario: "PaulaLondra",
+    servicio: "Lifting de pestaña",
+    tipo: "Belleza",
+    hora: "13:00",
+  },
+  {
+    usuario: "LucasGerbert",
+    servicio: "Limpieza Profunda + Hidratación",
+    tipo: "Tratamientos Faciales",
+    hora: "13:00",
+  },
+  {
+    usuario: "PabloDias",
+    servicio: "DermoHealth",
+    tipo: "Tratamientos Corporales",
     hora: "13:00",
   },
 ];
